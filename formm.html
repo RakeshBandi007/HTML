@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <style>
+.container
+{
+    background-color: white;
+    margin-top: 70px;
+    margin-left: 30px;
+    padding: 30px;
+    
+}
+input [type=number],[type=text]
+{
+    background-color: lightgray;
+}
+input [type=number],[type=submit]
+{
+    border-radius: 30px;
+}
+        </style>
+    </head>
+    <body >
+        <div  class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+                <div class="container">
+                    <h3 style="color: #bf80ff;">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; Get In Touch</h3><br>
+                    <div class="ROW"><DIV class="col-sm-1"></DIV>
+                        <DIV class="col-sm-5">
+                        <br>
+                        <input style="background-color:  rgb(232, 214, 247);" type=" text" name="" id="1" placeholder="First Name" class="form-control"> </DIV>
+                        <DIV class="col-sm-5">
+                            <br>
+                        <input style="background-color: rgb(232, 214, 247);" type=" text" name="" id="2" placeholder="Last Name" class="form-control " > </DIV><DIV class="col-sm-1"></DIV><br>
+                        
+                        </div>
+
+                        <br>
+                        <div class="ROW"><DIV class="col-sm-1"></DIV>
+                            <DIV class="col-sm-5">
+                        <input style="background-color: rgb(232, 214, 247); " type=" text" name="" id="3" placeholder="Email" class="form-control"> </DIV>
+                        <DIV class="col-sm-5">
+                            
+                        <input style="background-color: rgb(232, 214, 247);" type=" text" name="" id="4" placeholder="Phone" class="form-control " > </DIV><DIV class="col-sm-1"></DIV><br>
+                        
+                        </div>
+                        
+                        
+                        <br><div class="row"><DIV class="col-sm-1"></DIV>
+                            <div class="col-sm-10">
+                                <input style="background-color: rgb(222, 186, 254);" type="text" name="" id="5" placeholder="Address" class="form-control"><DIV class="col-sm-1"></DIV>
+                            </div>
+                    </div><br><div class="row"><DIV class="col-sm-1"></DIV>
+                        <div class="col-sm-10">
+                        
+                            <textarea rows="4" placeholder="Your message here..." class="form-control" id="6" style="background-color: #bf80ff;" ></textarea><DIV class="col-sm-1"></DIV>
+                        </div>
+                </div><br><br>
+                <div class="row">
+                    <div class="col-sm-4"></div>
+                    <div class="col-sm-3">
+                        <input type="submit" name="" value="Submit" id="total" class="form-control btn btn-primary"  > 
+                      </div>
+                      <div class="col-sm-5"></div>
+                    </div>
+            
+            
+            
+            </div><div class="col-sm-2"></div>
+        </div></body>
+        <script>
+            function v1()
+            {
+                    
+                var a= document.getElementById("1").value
+                var b= document.getElementById("2").value
+                var c= document.getElementById("3").value
+                var d= document.getElementById("4").value
+                var e= document.getElementById("5").value
+                var f= document.getElementById("6").value
+document.getElementById("total").value=1+2+3+4+5+6;
+
+            }
+
+        </script>
+</html>

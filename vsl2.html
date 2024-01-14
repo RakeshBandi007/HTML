@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="validation.js">
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<style type="text/css">
+		body
+		{
+			background: linear-gradient(to bottom left, #339966 44%, #009999 100%);
+			height: 720px;
+		}
+		.container
+		{
+			background-color: white;
+			margin-top: 150px;
+			padding: 30px;
+		}
+		input[type=submit]
+		{
+			background: linear-gradient(to bottom left, #339966 44%, #009999 100%);
+			color: white;
+		}
+		span{ color: red;
+
+		}
+	</style>
+</head>
+<body>
+
+<div class="row">
+	<div class="col-sm-4"></div>
+	<div class="col-sm-4">
+
+		<div class="container">
+		<h2 style="text-align: center;">Login</h2>
+		<br>
+		<p style="text-align: center;">Enter your username and password</p>
+		<br>
+		<div class="row">
+			<div class="col-sm-12">
+				<label>Username <span>*</span></label>
+				<input type="text" name="" placeholder="username" class="form-control" required="" onkeypress="javascript:return isString(even)">
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-sm-12">
+				<label>Password <span>*</span></label>
+				<input type="password" name="" placeholder="password" class="form-control" required="" onkeypress="javascript:return isAlphanumric(even)">
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-sm-12">
+				<input type="submit" name="" value="LOGIN" class="btn btn form-control">
+			</div>
+		</div>
+<br>
+         <div class="row">
+         	<div class="col-sm-12">
+         		<p style="text-align: center">Not registred? <a href="" style="color: green">Create a account</a></p>
+         	</div>
+         </div>
+
+	    </div>
+
+	</div>
+	<div class="col-sm-4"></div>
+</div>
+
+
+	
+
+</body>
+</html>

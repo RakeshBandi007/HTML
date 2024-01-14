@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <script>
+            function f(val)
+            {
+                with(document.forms.myform)
+                {
+
+                if(val==1)
+                {
+                    choices[0].text="Mango";
+                    choices[0].value=1;
+                    choices[1].text="Orange";
+                    choices[1].value=2;
+                    choices[2].text="Banana";
+                    choices[2].value=3;
+
+                }
+                if(val==2)
+                {
+                    choices[0].text="Jasmine";
+                    choices[0].value=1;
+                    choices[1].text="Rose";
+                    choices[1].value=2;
+                    choices[2].text="Lotus";
+                    choices[2].value=3;
+                }
+                if(val==3)
+                {
+                    choices[0].text="Red";
+                    choices[0].value=1;
+                    choices[1].text="Blue";
+                    choices[1].value=2;
+                    choices[2].text="Black";
+                    choices[2].value=3;
+                }
+
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <h3>Select Disired Option</h3>
+
+        <form name="myform">
+            <input type="radio" name="items" checked="true" value="1" onclick="f(this.value)">Fruit
+
+            <input type="radio" name="items" value="2" onclick="f(this.value)">Flower
+
+            <input type="radio" name="items" value="3" onclick="f(this.value)">Color
+            <br><br>
+
+            <select name="choices" id="">
+                <option value="1">Mango</option>
+                <option value="2">Orange</option>
+                <option value="3">Banana</option>
+            </select>
+        </form>
+    </body>
+</html>

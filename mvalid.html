@@ -1,0 +1,28 @@
+<html>
+    <head>
+        
+        <script>
+                var r=/^[7-9][0-9]{9}$/;
+
+                function f()
+                {
+                    var str=textfield.value;
+
+                    if(r.test(str))
+                    {
+                        alert("Valid No.."+str);
+                    }
+                    else{
+                        alert("Invalid No..");
+                    }
+                }
+        
+        </script>
+        
+    </head>
+    <body>
+        Number <input type="text" id="textfield" >
+
+        <input type="button" value="Check It Basterd" onclick="f()">
+    </body>
+</html>
